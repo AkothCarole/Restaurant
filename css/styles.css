@@ -35,7 +35,7 @@ div.button {
 }
 
 /*overlay*/
-.overlay {
+/**.overlay {
 	display:none;
 	position:fixed;
 	top:0;
@@ -80,7 +80,7 @@ div.button {
 }
 
 .wrap ul.wrap-nav li a:hover {
-	color:#f0f0f0;
+	color:#f0f0f0; **/
 }
 
 /**Section-One**/
