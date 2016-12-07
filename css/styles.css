@@ -169,7 +169,7 @@ h1{
     height: 155px;
 }
 
-.happy-hour{
+#Happy-Hour{
     background-color: #d8d8d8;
     width:100%;
     padding: 0;
@@ -179,16 +179,16 @@ h1{
     display: flex;
     height: 50%;
 }
-.happy-hour a{
+#Happy-Hour a{
     color: #454545; 
 }
-.happy-hour a:hover{
+/*.happy-hour a:hover{
     color: #F15A29;
     cursor: pointer;
     text-decoration: none;
-}
+}*/
 
-.party-time{
+#PartyTime{
     background-color: #F15A29;
     height: 50%;
     width: 100%
@@ -199,11 +199,11 @@ h1{
     display: flex;
 }
 
-.party-time a{
+#PartyTime a{
     color: #fff; 
 }
 
-.party-time>h2,.happy-hour>h2{
+#PartyTime>h2,#Happy-Hour>h2{
     font-size: 24px;
     margin: auto;
     text-decoration: none;

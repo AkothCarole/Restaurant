@@ -16,7 +16,7 @@ This site can be viewed [here] (https://akothcarole.github.io/Restaurant/)
 ## Pending work
 Site Responsive
 Active links and Tabs
-integrate MailChimp S
+integrate MailChimp 
 
 
 ## License
