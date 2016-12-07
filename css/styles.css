@@ -235,6 +235,16 @@ h1{
     border: 10px solid #fff;
     padding: 1px 1px 1px 1px;
 	box-shadow: -1px 1px 5px 4px #E3E3E3;
+    width:400px;
+    height:300px;
+   background-color:white;
+   border-left: 10px solid white;
+   border-right: 10px solid white;
+   border-top: 10px solid white;
+   border-bottom: 10px solid white;
+   float: right;
+   
+
 }
 
 .drinkstext{
@@ -337,9 +347,9 @@ td p{
     height: 100%;
     background-size: cover;
     min-height: 300px;
-    text-align: center;
-    color: #fff;
+    color: #FFF;
     display: flex;
+    text-align: center;
 }
 /*#EmailSubscribe{
     text-align: center;*/
@@ -350,13 +360,17 @@ td p{
 
 div #mc_embed_signup{
     background: transparent;
+    text-align: center;
 }
 
 label {
     width:auto;
-    font-size: 1.0em;
+    font-size: .9;
     font-family: cursive;
     letter-spacing: 1px;
+    margin-left: 400px;
+    margin-top: 100px;
+    text-align: center;
 }
 
 div #mc_embed_signup .button {
@@ -365,30 +379,29 @@ div #mc_embed_signup .button {
     color: #FFFFFF;
     text-decoration: none;
     border: 1px solid #F15A29;
-    width: 180px;
+    border-top: 1px solid #F15A29;
+    border-bottom: 1px solid #F15A29;
+    border-right: 1px solid #F15A29;
+    border-left: 1px solid #F15A29;
+    border-radius: 4px;
+    width: 200px;
     margin-left: 20px;
     border-radius: 2px;
     font-size: 1.1em;
 }
 
 #mce-EMAIL{
+    margin-top: 100px;
     width: 300px;
     opacity: 0.4;
-    text-decoration-color:#fff;
+    text-decoration-color:#FFFFFF;
     border-radius: 2px;
 }
 
-#mce-Email placeholder{
-    color: #fff;
+#mce-Email .placeholder{
+    color: #FFFFFF;
 }
 
-div .clear{
-    display: inline;
-}
-
-::-webkit-input-placeholder{
-    font-size: 1.1em;
-}
 
 #Footer{
     background-color:#F15A29;
