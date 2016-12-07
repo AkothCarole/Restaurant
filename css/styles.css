@@ -34,54 +34,7 @@ div.button {
     color: #fff;
 }
 
-/*overlay*/
-/**.overlay {
-	display:none;
-	position:fixed;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#F15A29;
-    opacity: 0.95;
-	overflow:auto;
-	z-index:99;
-}
 
-.wrap {
-	max-width:90%;
-	margin:0 auto;
-}
-
-.wrap-nav {
-	padding:150px 0px 100px;
-}
-
-.wrap ul.wrap-nav li {
-	font-size:20px;
-	display:block;
-    text-align: center;
-    margin: 0 auto;
-	vertical-align:top;
-	width:24%;
-	position:relative;
-    color: #000;
-}
-
-.wrap ul.wrap-nav li a {
-    font-size: 1.6em;
-	color: #000;
-	display:block;
-	padding:8px 0;
-	text-decoration:none;
-	transition-property:all .2s linear 0s;
-	-moz-transition:all .2s linear 0s;
-	-webkit-transition:all .2s linear 0s;
-	-o-transition:all .2s linear 0s;
-}
-
-.wrap ul.wrap-nav li a:hover {
-	color:#f0f0f0; **/
-}
 
 /**Section-One**/
 .Section1{
@@ -317,17 +270,17 @@ h1{
     width: 100%;
     height: 100%;
     background-size: cover;
-        display: flex;
+    display: flex;
 }
 
-.menu-tab{
+#MenuTab{
     padding: 0px 200px 0px 200px;
     border: 0pt;
     margin: auto;
 }
 
-#menu-table{
-    background: #fff;
+#Menutable{
+    background: #FFFFFF;
     color:  #F15A29;
     width: 100%;
 }
@@ -336,7 +289,7 @@ ul .nav .nav-tabs{
     border: 0px;
 }
 
-.menu-tab .nav li {
+#MenuTab .nav li {
     background-color: #d3d3d3;
     color: #fff;
     list-style: none;
@@ -378,7 +331,6 @@ td p{
     border-left: 2px solid #E3E3E3;
 }
 
-/*Subscribe*/
 #Subscribe{
     background: url(../img/backgrounds/subscribe.jpg) no-repeat center fixed;
     width: 100%;
@@ -390,50 +342,6 @@ td p{
     display: flex;
 }
 
-.subscribe .row{
-    margin: auto;
-}
-
-div #mc_embed_signup{
-    background: transparent;
-}
-
-label h4{
-    width:auto;
-    font-size: 1.3em;
-    letter-spacing: 1px;
-}
-
-div #mc_embed_signup .button {
-    outline: none;
-    background: #F15A29;
-    color: #FFFFFF;
-    text-decoration: none;
-    border: 1px solid #F15A29;
-    width: 180px;
-    margin-left: 20px;
-    border-radius: 2px;
-    font-size: 1.1em;
-}
-
-#mce-EMAIL{
-    width: 300px;
-    opacity: 0.4;
-    text-decoration-color:#fff;
-    border-radius: 2px;
-}
-
-#mce-Email placeholder{
-    color: #fff;
-}
-
-div .clear{
-    display: inline;
-}
-
-::-webkit-input-placeholder{
-    font-size: 1.1em;
-}
 #Footer{
     background-color:#F15A29;
     margin: 0 auto;
@@ -449,131 +357,11 @@ div .clear{
 #FooterLogo{
    font-size: 1.3em;   
 }
-
 #FooterLogo h3{
     font-size: 1.5em;
     padding-right: 10px;
 }
-/*End of Footer*/
 
 
-/*Medium devices (desktops, 992px and up) md */
-@media (min-width:992px) and (max-width:1200px){
-    
-    /*Page Two*/
-   .page2{
-    padding:75px 100px 75px 100px;
-    overflow: auto;
-    }
-    
-    /*Page Three*/
-    .menu-tab{
-    padding: 0px 100px 0px 100px;
-    border: 0pt;
-    margin: auto;
-    }
-    
-    /*Page Four*/
-    .testimony{
-    padding: 75px 100px 75px 100px;
-    }
-}
 
-/* Small devices (tablets, 768px and up) sm */
-@media (min-width: 768px) and (max-width: 992px){
-    
-    /*Landing Page*/
-    .col-sm-6 {
-    width: 50%;
-    min-height: 155px;
-    background-size: cover;
-    }
-    
-    /*Page Two*/
-    .page2{
-    padding:50px 20px 50px 20px;
-    overflow: auto;
-    }
-    
-    /*Page Three*/
-    .page3 {
-    width: 100%;
-    height: 80%;
-    display: flex;
-    }
-    .menu-tab{
-    padding: 0px 70px 0px 70px;
-    border: 0pt;
-    margin: auto;
-    }
-    td span.glyphicon {
-    color: #F15A29; 
-    padding-top: 80px; 
-    }
-    
-    /*Page Four*/
-    .testimony{
-    padding: 75px 80px 75px 50px;
-    }  
-}
-
-/*Extra small devices(mobile phones) xs*/
-@media(max-width:768px){
-    
-    /*Landing Page*/
-    .caption{
-    width: 100%;
-    }
-    h1{
-    margin-top: 20px;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 28px;
-    padding-bottom: 10px;
-    }
-    
-    /*Page Two*/
-    .page2{
-    padding:50px 50px 50px 50px;
-    overflow: auto;
-    }
-    .fast-food-content h2{
-    margin-top: 200px;
-    font-weight: bold;
-    }
-    .fast-food-content{
-        padding-left: 0px;
-        padding-top: 30px;
-    }
-    .drinks-content{
-    padding-right: 0px;
-    text-align: left;
-    padding: 0px;
-    }
-    .drinks-img{
-    margin-top: 50px;
-    }
-    
-    /*Page Three*/
-     .page3 {
-    width: 100%;
-    height: 60%;
-    display: flex;
-    }
-    .menu-tab{
-    padding: 0px 10px 0px 10px;
-    border: 0pt;
-    margin: auto;
-    font-size: 0.8em;
-    }
-    td span.glyphicon {
-    color: #F15A29; 
-    padding-top: 20px; 
-    }
-    
-    /*Page Four*/
-    .testimony{
-    padding: 55px 10px 55px 10px;
-    }
-}
 
