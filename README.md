@@ -14,9 +14,7 @@ This site has been built using HTM, CSS, JavaScript and JQuery.
 This site can be viewed [here] (https://akothcarole.github.io/Restaurant/)
 
 ## Pending work
-Site Responsive
-Active links and Tabs
-integrate MailChimp 
+Integrate Mail chimp 
 
 
 ## License

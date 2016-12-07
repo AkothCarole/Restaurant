@@ -434,23 +434,23 @@ div .clear{
 ::-webkit-input-placeholder{
     font-size: 1.1em;
 }
-.footer{
+#Footer{
     background-color:#F15A29;
     margin: 0 auto;
     text-align: center;
     color: #fff;
 }
 
-.footer img{
+.Footer img{
     padding-right:10px;
     padding-left: ;
 }
 
-#footer-head{
+#FooterLogo{
    font-size: 1.3em;   
 }
 
-#footer-head h3{
+#FooterLogo h3{
     font-size: 1.5em;
     padding-right: 10px;
 }
