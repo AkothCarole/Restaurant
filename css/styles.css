@@ -341,6 +341,54 @@ td p{
     color: #fff;
     display: flex;
 }
+/*#EmailSubscribe{
+    text-align: center;*/
+}
+.subscribe .row{
+    margin: auto;
+}
+
+div #mc_embed_signup{
+    background: transparent;
+}
+
+label {
+    width:auto;
+    font-size: 1.0em;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+div #mc_embed_signup .button {
+    outline: none;
+    background: #F15A29;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #F15A29;
+    width: 180px;
+    margin-left: 20px;
+    border-radius: 2px;
+    font-size: 1.1em;
+}
+
+#mce-EMAIL{
+    width: 300px;
+    opacity: 0.4;
+    text-decoration-color:#fff;
+    border-radius: 2px;
+}
+
+#mce-Email placeholder{
+    color: #fff;
+}
+
+div .clear{
+    display: inline;
+}
+
+::-webkit-input-placeholder{
+    font-size: 1.1em;
+}
 
 #Footer{
     background-color:#F15A29;
